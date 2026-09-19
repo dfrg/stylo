@@ -537,7 +537,6 @@ spec = "https://drafts.csswg.org/css-inline/#text-box-shorthand"
 gecko_pref = "layout.css.text-box.enabled"
 
 [text-emphasis]
-engine = "gecko"
 sub_properties = ["text-emphasis-style", "text-emphasis-color"]
 spec = "https://drafts.csswg.org/css-text-decor-3/#text-emphasis-property"
 derive_serialize = true
@@ -559,7 +558,6 @@ spec = "https://compat.spec.whatwg.org/#the-webkit-text-stroke"
 derive_serialize = true
 
 [-webkit-line-clamp]
-engine = "gecko"
 flags = "IS_LEGACY_SHORTHAND ALLOWS_DISABLED_SUBPROPERTIES"
 sub_properties = ["line-clamp"]
 spec = "https://drafts.csswg.org/css-overflow-4/#webkit-line-clamp"

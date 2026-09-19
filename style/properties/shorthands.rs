@@ -3076,7 +3076,6 @@ pub mod text_box {
     }
 }
 
-#[cfg(feature = "gecko")]
 pub mod text_emphasis {
     pub use crate::properties::generated::shorthands::text_emphasis::*;
 
