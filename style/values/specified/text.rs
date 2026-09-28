@@ -1781,6 +1781,7 @@ pub enum TextWrapStyle {
     Auto,
     Stable,
     Balance,
+    Pretty,
 }
 
 /// https://drafts.csswg.org/css-writing-modes/#propdef-unicode-bidi
@@ -1879,7 +1880,6 @@ pub enum WhiteSpaceCollapse {
     Preserve,
     PreserveBreaks,
     BreakSpaces,
-    #[cfg(feature = "gecko")]
     #[cfg_attr(feature = "gecko", parse(aliases = "-moz-pre-space"))]
     PreserveSpaces,
 }

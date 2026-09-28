@@ -1610,10 +1610,13 @@ pub enum FontSynthesis {
     Clone,
     Copy,
     Debug,
+    Deserialize,
     Eq,
+    Hash,
     MallocSizeOf,
     Parse,
     PartialEq,
+    Serialize,
     SpecifiedValueInfo,
     ToComputedValue,
     ToCss,
@@ -2368,14 +2371,9 @@ pub enum FontVariantPosition {
 pub enum FontVariantCaps {
     Normal,
     SmallCaps,
-    #[cfg(feature = "gecko")]
     AllSmallCaps,
-    #[cfg(feature = "gecko")]
     PetiteCaps,
-    #[cfg(feature = "gecko")]
     AllPetiteCaps,
-    #[cfg(feature = "gecko")]
     Unicase,
-    #[cfg(feature = "gecko")]
     TitlingCaps,
 }

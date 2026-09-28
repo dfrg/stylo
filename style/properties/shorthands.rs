@@ -845,7 +845,6 @@ pub mod column_rule {
     }
 }
 
-#[cfg(feature = "gecko")]
 pub mod text_wrap {
     pub use crate::properties::generated::shorthands::text_wrap::*;
 
@@ -2899,7 +2898,6 @@ pub mod font_variant {
     }
 }
 
-#[cfg(feature = "gecko")]
 pub mod font_synthesis {
     pub use crate::properties::generated::shorthands::font_synthesis::*;
 
@@ -3007,7 +3005,6 @@ pub mod font_synthesis {
     }
 }
 
-#[cfg(feature = "gecko")]
 pub mod text_box {
     pub use crate::properties::generated::shorthands::text_box::*;
 
